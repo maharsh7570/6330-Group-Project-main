@@ -1,0 +1,20 @@
+MATRIX MULTIPLICATION BENCHMARKS - SEQUENTIAL
+============================================
+Student: [Bikram Adhikari]
+CPU: AMD Ryzen 5 5500U (6 cores)
+Date: Oct 14, 2025
+
+RESULTS:
+--------
+Matrix Size | Time (ms) | GFLOPS
+256x256     | 71        | 0.47
+512x512     | 579       | 0.46
+1024x1024   | 14,726    | 0.15
+
+OBSERVATIONS:
+- Performance consistent at ~0.45 GFLOPS for smaller sizes
+- Drops to 0.15 GFLOPS at 1024x1024 due to memory limits
+- Ready for parallel implementation
+
+FILES:
+- sequential_mm.cpp (source code)
